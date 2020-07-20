@@ -67,6 +67,7 @@ p {
     line-height: 1.4;
 }
 
+/* added to give content section larger padding */
 .coolDiv {
     background-color: white;
     width: 1000px;
@@ -102,7 +103,11 @@ header nav a {
 .headerMain {
     display: flex;
 }
+/* header section end */
 
+/* content section */
+   
+    /* top-content section */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +122,7 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+    /* middle-content section */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -126,6 +132,7 @@ header nav a {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
 /* Box section */
 .middle-content .boxes {
     display: flex;
@@ -242,7 +249,9 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
+/* end box section */
 
+/* bottom section */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -257,6 +266,9 @@ header nav a {
     padding-right: 0;
 }
 
+/* end bottom section */
+
+/* footer section */
 footer {
     width: 100%;
     background: black;
@@ -275,14 +287,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* end footer section */
 
+
+/*  */
+/*  */
+/*  */
+/*  */
 /* About Page */
+/*  */
+/*  */
+/*  */
+/*  */
 
+/* middle section */
 .middle-content-about-page {
     display: flex;
     flex-direction: row;
 }
 
+/* content section */
 .contentDiv {
     display: flex;
     flex-direction: column;
@@ -302,6 +326,7 @@ footer nav a {
     padding:5px;
 }
 
+/* bottom content section */
 .bottom-content-about-page p {
     margin-bottom: 20px;
 }
