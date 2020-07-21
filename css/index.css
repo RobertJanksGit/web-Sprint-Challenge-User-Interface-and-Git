@@ -52,6 +52,7 @@ table {
 }
 
 html, body {
+    background-color: #0E0E0E;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -66,11 +67,47 @@ p {
     line-height: 1.4;
 }
 
+/* added to give content section larger padding */
+.coolDiv {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* Header Section */
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-left: 20px; 
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.headerMain {
+    display: flex;
+}
+/* header section end */
+
+/* content section */
+   
+    /* top-content section */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +122,7 @@ p {
     padding-bottom: 20px;  
 }
 
+    /* middle-content section */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -95,16 +133,17 @@ p {
     margin-bottom: 0;
 }
 
+/* Box section */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +151,107 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end box section */
+
+/* bottom section */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +266,9 @@ p {
     padding-right: 0;
 }
 
+/* end bottom section */
+
+/* footer section */
 footer {
     width: 100%;
     background: black;
@@ -143,4 +286,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* end footer section */
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* About Page */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* middle section */
+.middle-content-about-page {
+    display: flex;
+    flex-direction: row;
+}
+
+/* content section */
+.contentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contentDiv a {
+    color: black;
+    text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding:5px;
+}
+
+/* bottom content section */
+.bottom-content-about-page p {
+    margin-bottom: 20px;
 }
